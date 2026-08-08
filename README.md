@@ -1,5 +1,7 @@
 # Network Packet Sniffing and Analysis
 
+[![License](https://img.shields.io/badge/license-CC%20BY%204.0-blue?style=flat-square)](LICENSE)
+
 ## Objective
 Capture and analyze network traffic to identify:
 - Credentials
@@ -11,7 +13,7 @@ Capture and analyze network traffic to identify:
 
 ## Folder Content
 
-[Report](https://github.com/Gautam-CyberSec/Network-Packet-Sniffing-and-Analysis/blob/main/Report/Report.md)
+[Report](Report/Report.md)
 
 [Screenshots](https://github.com/Gautam-CyberSec/Network-Packet-Sniffing-and-Analysis/tree/main/Screenshots)
 
@@ -23,6 +25,8 @@ This analysis demonstrates how dangerous it is to transmit sensitive data over H
 Recommendation:  
 Always use HTTPS and strong input validation to prevent these vulnerabilities.
 
-# Contact
+## Contact
 
-For questions, please contact me at https://discord.gg/zZHyANFq
+**Gautam** — Cloud &amp; Backend Engineer
+
+[Portfolio](https://Gautam-cloud.com) · [LinkedIn](https://linkedin.com/in/gautam-cybersec) · [gautamdem@gmail.com](mailto:gautamdem@gmail.com)

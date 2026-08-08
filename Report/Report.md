@@ -12,7 +12,7 @@ Capture and analyze network traffic to identify credentials, Suspicous activity.
  
  • Opened Wireshark and selected the lo (loopback) interface to capture localhost traffic.
 
- <img width="719" height="372" alt="Image" src="https://github.com/Gautam-CyberSec/Network-Packet-Sniffing-and-Analysis/blob/main/Screenshots/Screenshot%202025-09-15%20115105.png" />
+ <img width="719" height="372" alt="Image" src="../Screenshots/Screenshot%202025-09-15%20115105.png" />
 
 ### 2. Capturing Network Traffic
  • Started capturing packets in Wireshark before interacting with DVWA.
@@ -25,7 +25,7 @@ Capture and analyze network traffic to identify credentials, Suspicous activity.
  
  • Saved the captured data as a .pcap file named: Wireshark.pcap
 
- <img width="719" height="372" alt="Image" src="https://github.com/Gautam-CyberSec/Network-Packet-Sniffing-and-Analysis/blob/main/Screenshots/Screenshot%202025-09-15%20115326.png" />
+ <img width="719" height="372" alt="Image" src="../Screenshots/Screenshot%202025-09-15%20115326.png" />
 
 ### 4. Analyzed the Capture
 
@@ -33,25 +33,25 @@ Capture and analyze network traffic to identify credentials, Suspicous activity.
  
 → Found multiple HTTP GET and POST requests between the client and server.
 
-<img width="719" height="372" alt="Image" src="https://github.com/Gautam-CyberSec/Network-Packet-Sniffing-and-Analysis/blob/main/Screenshots/Screenshot%202025-09-15%20120411.png" />
+<img width="719" height="372" alt="Image" src="../Screenshots/Screenshot%202025-09-15%20120411.png" />
 
  • Applied filter: http.request.method == POST
  
 → Found a POST request where login credentials were transmitted in plaintext.
 
-<img width="719" height="372" alt="Image" src="https://github.com/Gautam-CyberSec/Network-Packet-Sniffing-and-Analysis/blob/main/Screenshots/Screenshot%202025-09-15%20120247.png" />
+<img width="719" height="372" alt="Image" src="../Screenshots/Screenshot%202025-09-15%20120247.png" />
  
  • Further analysis of POST requests revealed an HTTP file upload operation.
  
  • Found that the uploaded file was named: revShell.php
 
- <img width="719" height="372" alt="Image" src="https://github.com/Gautam-CyberSec/Network-Packet-Sniffing-and-Analysis/blob/main/Screenshots/Screenshot%202025-09-15%20120307.png" />
+ <img width="719" height="372" alt="Image" src="../Screenshots/Screenshot%202025-09-15%20120307.png" />
 
  • Applied filter: http.request.method == GET
 
 → Found that a SQL injection attempt was tested by submitting malicious input in the URL.
 
-<img width="719" height="372" alt="Image" src="https://github.com/Gautam-CyberSec/Network-Packet-Sniffing-and-Analysis/blob/main/Screenshots/Screenshot%202025-09-15%20120346.png" />
+<img width="719" height="372" alt="Image" src="../Screenshots/Screenshot%202025-09-15%20120346.png" />
 
 ## Conclusion
 
